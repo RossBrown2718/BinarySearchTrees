@@ -27,4 +27,10 @@ public class BinarySearchTree {
 			print(n.right);
 		}
 	}
+	
+	public void rotateLeft(Node n) {
+		//n.right.left = n
+		//.right = n.right.left
+		//n.parent.left = n.right
+	}
 }
